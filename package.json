@@ -1,0 +1,11 @@
+{
+  "name": "pixel-maker",
+  "version": "1.0.0",
+  "description": "Pixel-Art-Maker used to be given as final capstone project in Udacity's FEND NanoDegree Programme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Somyanath Mohanty",
+  "license": "MIT"
+}

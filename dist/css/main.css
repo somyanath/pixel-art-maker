@@ -1,0 +1,141 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  border: solid 6px #453e4b;
+  text-align: center;
+  margin: 0;
+  font-family: 'Joti One', 'Open Sans', sans-serif;
+}
+
+#page-title {
+  font-size: 50px;
+  margin: 0.2em;
+}
+
+#page-title {
+  font-family: Monoton;
+  font-size: 50px;
+  margin: 0.2em;
+  color: #453e4b;
+}
+
+input[type="submit"] {
+  font-family: 'Open Sans', sans-serif;
+  background-color: lemonchiffon;
+  border: solid 2px #453e4b;
+  border-radius: 30px;
+}
+
+.grid-maker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 2% 15px 2%;
+  border: solid 2px #453e4b;
+  background-color: #d0ecfd;
+}
+
+.grid-maker > * {
+  margin: 0.5em;
+}
+
+.builder {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.builder div {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.builder button {
+  width: 90px;
+  height: 30px;
+}
+
+.builder input {
+  width: 3em;
+  margin-left: 5px;
+}
+
+#create-grid,
+#reset,
+#clear-grid {
+  width: 120px;
+}
+
+#color-picker {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  margin: 5% 5px 20px 5px;
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+table,
+tr,
+td {
+  border: solid 1px black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 96%;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  #page-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #page-title {
+    font-size: 30px;
+  }
+  .builder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .builder button {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

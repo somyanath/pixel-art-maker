@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link href="https://fonts.googleapis.com/css?family=Joti+One|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="page-title">Pixel Art Maker</h1>
+
+    <form class="grid-maker">
+      <!-- <button id="reset">Reset</button> -->
+
+      <div class="builder">
+        <div>Row</div>
+        <!-- <button type="button" id="row-sub" value="10">-</button>
+        <button type="button" id="row-add" value="10">+</button> -->
+        <input type="number" value="10" name="height" min="1" id="input-rows">
+      </div>
+
+      <div class="builder">
+        <div>Column</div>
+        <!-- <button type="button" id="col-sub" value="10">-</button>
+        <button type="button" id="col-add" value="10">+</button> -->
+        <input type="number" value="10" name="width" min="1" id="input-cols">
+      </div>
+
+      <div class="builder">
+        <!-- <button type="button" id="clear-grid">Clear Grid</button> -->
+        <input type="submit" id="create-grid" value="Create Grid"></input>
+      </div>
+
+      <input type="color" id="color-picker">
+    </form>
+
+    <h2 id="canvas">Canvas</h2>
+
+    <table id="pixel-canvas"></table>
+
+    <footer>
+      <p>Take a screenshot of your creation, and tweet it back to me!!</p>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+        data-text="I made this masterpiece with this Pixel Art maker" data-via="somyanath" data-hashtags="100DaysofCode"
+        data-show-count="false">Tweet</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+
+      <a href="https://github.com/somyanath" title="Portfolio & Contact">Somyanath Mohanty 2019</a>
+      <span> || </span>
+      <a href="" title="View project on GitHub">GitHub</a>
+    </footer>
+  </div>
+
+  <script src="./design.js"></script>
+</body>
+
+</html>
