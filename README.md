@@ -4,4 +4,4 @@ An intuitive and simple to use pixel art maker. It has the functionality of crea
 
 TECH STACK: HTML - CSS - JAVASCRIPT
 
-### CHECKOUT THE LIVE VERSION OF THE PROJECT: somyanath.github.io/pixel-art-maker/
+### CHECKOUT THE LIVE VERSION OF THE PROJECT: https://somyanath.github.io/pixel-art-maker/
